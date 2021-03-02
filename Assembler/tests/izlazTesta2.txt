@@ -1,0 +1,45 @@
+#tabela simbola
+	#ime - sek - vr - vid - ID
+	UND - UND - 0x0 - L - 0x0
+	ABS - ABS - 0x0 - L - 0x1
+	prva - prva - 0x0 - L - 0x6
+	druga - druga - 0x0 - L - 0xA
+	treca - treca - 0x0 - L - 0xB
+	g1 - druga - 0x5 - G - 0x2
+	g2 - treca - 0x7 - G - 0x3
+	e1 - UND - 0x0 - G - 0x4
+	e2 - UND - 0x0 - G - 0x5
+	s3 - treca - 0x13 - L - 0x7
+	s1 - prva - 0x9 - L - 0x8
+	b - ABS - 0x16 - L - 0x9
+	a - druga - 0x5 - L - 0xC
+	c - ABS - 0x24 - L - 0xD
+
+#Relokaciona tabela za sekciju prva
+	#adresa - tip - IDSimbola
+	0x4 - apsolutan - 0xB
+	0xB - apsolutan - 0x3
+
+#Relokaciona tabela za sekciju druga
+	#adresa - tip - IDSimbola
+	0x3 - apsolutan - 0x3
+	0xF - relokatibilan - 0xB
+
+#Relokaciona tabela za sekciju treca
+	#adresa - tip - IDSimbola
+	0x2 - apsolutan - 0x6
+	0x5 - apsolutan - 0xB
+	0x9 - relokatibilan - 0x2
+	0x11 - apsolutan - 0x3
+	0x13 - apsolutan - 0x3
+	0x15 - apsolutan - 0xB
+
+#prva
+ 1C 46 6C 6C 13 00 6E 00 00 3C 80 00 00
+
+#druga
+ 78 23 80 00 00 BC 00 03 00 28 0A 09 05 24 6E 11 00
+
+#treca
+ 8C 00 09 00 80 13 00 44 6E FE FF 4C 00 13 00 2C 64 00 00 00 00 13 00
+

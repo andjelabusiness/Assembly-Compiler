@@ -1,0 +1,43 @@
+#tabela simbola
+	#ime - sek - vr - vid - ID
+	UND - UND - 0x0 - L - 0x0
+	ABS - ABS - 0x0 - L - 0x1
+	text - text - 0x0 - L - 0x5
+	data - data - 0x0 - L - 0x9
+	sekcija_3 - sekcija_3 - 0x0 - L - 0xB
+	a - sekcija_3 - 0x5 - G - 0x2
+	b - text - 0xC - G - 0x3
+	c - UND - 0x0 - G - 0x4
+	d - UND - 0x10 - L - 0x6
+	sim2 - data - 0x0 - L - 0x7
+	sim1 - text - 0x4 - L - 0x8
+	sim3 - sekcija_3 - 0xE - L - 0xA
+	x - sekcija_3 - 0x5 - L - 0xC
+
+#Relokaciona tabela za sekciju text
+	#adresa - tip - IDSimbola
+	0x2 - apsolutan - 0x9
+	0xA - apsolutan - 0x5
+	0xE - apsolutan - 0x2
+
+#Relokaciona tabela za sekciju data
+	#adresa - tip - IDSimbola
+	0x6 - apsolutan - 0x5
+	0xA - apsolutan - 0x4
+	0xC - apsolutan - 0xB
+	0x11 - apsolutan - 0x9
+	0x16 - apsolutan - 0x9
+
+#Relokaciona tabela za sekciju sekcija_3
+	#adresa - tip - IDSimbola
+	0xC - relokatibilan - 0x5
+
+#text
+ 2C 6A 00 00 03 64 00 1A 00 80 04 00 4C 00 00 00
+
+#data
+ 44 64 0C 00 3C 00 04 00 07 00 00 00 0E 00 9C 46 80 00 00 C4 20 00 00 00
+
+#sekcija_3
+ B4 6E 09 00 22 64 28 6C 06 00 34 6E 02 00 70 00 02 2A 54 2C
+
